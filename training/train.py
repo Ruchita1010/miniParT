@@ -18,7 +18,7 @@ ARTIFACTS_DIR = PROJECT_ROOT / "artifacts"
 
 # Training configuration
 BATCH_SIZE = 32
-EPOCHS = 10
+EPOCHS = 30
 LEARNING_RATE = 1e-3
 WEIGHT_DECAY = 1e-4
 

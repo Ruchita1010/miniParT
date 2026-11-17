@@ -99,15 +99,15 @@ def extract_features(filepath, label, is_signal=True, max_events=None):
 
 # Extract features
 X_bb, y_bb = extract_features(
-    TTHTOBB_PATH, label=0, is_signal=True, max_events=10000
+    TTHTOBB_PATH, label=0, is_signal=True, max_events=None
 )
 
 X_cc, y_cc = extract_features(
-    TTHTOCC_PATH, label=1, is_signal=True, max_events=10000
+    TTHTOCC_PATH, label=1, is_signal=True, max_events=None
 )
 
 X_qcd, y_qcd = extract_features(
-    QCD_BCTOE_PATH, label=2, is_signal=False, max_events=10000
+    QCD_BCTOE_PATH, label=2, is_signal=False, max_events=None
 )
 
 # Combine datasets
