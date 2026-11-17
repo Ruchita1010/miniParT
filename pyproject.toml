@@ -1,0 +1,17 @@
+[project]
+name = "minipart"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "awkward>=2.15.0",
+    "fsspec-xrootd>=0.5.5",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "pandas>=3.1.1",
+    "plotly>=7.1.0",
+    "scikit-learn>=1.9.1",
+    "streamlit>=1.67.0",
+    "torch>=2.15.0",
+    "uproot>=5.7.7",
+    "vector>=1.9.0",
+]
